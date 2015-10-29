@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>缘分问答</title> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+
+    <style>
+	.ui-font-gray{color:#999; font-size:12px;}
+	</style>
+	<link rel="stylesheet" href="/css/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	
+	<link rel="stylesheet" href="/css/jquery-ui/1.11.4/jquery-ui.css" />
+  	<script src="/js/jquery-ui/1.11.4/jquery-ui.js"></script>
+</head>
+<body> 
+
+<div data-role="page">
+
+	<div data-role="header">
+    	<a href="index.php" data-role="button" data-icon="home">返回首页</a>
+		<h1>客户访问查询</h1>
+	</div><!-- /头部 -->
+
+	<div data-role="content">	
+		<form>
+        	<ul data-role="listview" data-inset="true">
+                <li data-role="fieldcontain">
+                   <label class="ui-input-text">查询条件</label>
+                </li>
+                <li data-role="fieldcontain">
+                    <label for="zxxAnswer">店名:</label>
+                    <textarea id="zxxAnswer"></textarea>
+                </li>
+                <li data-role="fieldcontain">
+                    <input type="submit" value="查询" data-theme="b" />
+                </li>
+            </ul>
+        </form>	
+        
+        
+        
+	</div><!-- /内容 -->
+
+	<div data-role="content">	
+    	<!-- 回答内容列表 -->
+        <ul data-role="listview">
+        	<li data-theme="d">
+            	<h4></h4>
+            	<p><strong>问题：</strong>GFW知道嘛玩意吗，墙，高高的墙~~<span class="ui-font-gray">1天前</span></p>
+                <p><strong>回答：</strong>长城防火墙，一堵无形的墙<span class="ui-font-gray">19小时前</span></p>
+            </li>
+            <li data-theme="d">
+            	<h4></h4>
+            	<p><strong>问题：</strong>你在国外么？我可以加你Facebook啊！<span class="ui-font-gray">1天前</span></p>
+                <p><strong>回答：</strong>抱歉，不在~<span class="ui-font-gray">1天前</span></p>
+            </li>
+            <li data-theme="d">
+            	<h4></h4>
+            	<p><strong>问题：</strong>怎么把握html的扩展性、样式的优化、图片的拼合重用性？<span class="ui-font-gray">2天前</span></p>
+                <p><strong>回答：</strong>我之前看过你的博客啊，我做程序的这个不清楚，不过我挺喜欢这个的，这不是来你空间学习了么？！<span class="ui-font-gray">1天前</span></p>
+            </li>
+            <li data-theme="d">
+            	<h4></h4>
+            	<p><strong>问题：</strong>你是怎么知道这个网站的？<span class="ui-font-gray">2天前</span></p>
+                <p><strong>回答：</strong>从别的网站链接过来的<span class="ui-font-gray">1天前</span></p>
+            </li>
+            <li data-theme="d">
+            	<h4></h4>
+            	<p><strong>问题：</strong>咋了？<span class="ui-font-gray">2天前</span></p>
+                <p><strong>回答：</strong>你猜<span class="ui-font-gray">2天前</span></p>
+            </li>
+            <li><a href="#">更多&gt;&gt;</a></li>
+        </ul>
+    </div>
+    
+	<div data-role="footer">
+		<h4>by zhangxinxu</h4>
+	</div><!-- /底部 --></div><!-- /页面 -->
+
+</body>
+</html>
