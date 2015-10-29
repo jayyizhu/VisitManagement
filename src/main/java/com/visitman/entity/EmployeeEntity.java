@@ -1,4 +1,4 @@
-package com.tianmaying.entity;
+package com.visitman.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;

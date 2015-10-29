@@ -1,11 +1,11 @@
-package com.tianmaying.service;
+package com.visitman.service;
 
 import java.util.List;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import com.tianmaying.entity.VisitHisEntity;
+import com.visitman.entity.VisitHisEntity;
 
 public interface VisitHisService {
 	/**

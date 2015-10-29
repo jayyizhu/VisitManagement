@@ -1,8 +1,8 @@
-package com.tianmaying.service;
+package com.visitman.service;
 
 import java.util.List;
 
-import com.tianmaying.entity.EmployeeEntity;
+import com.visitman.entity.EmployeeEntity;
 
 public interface EmployeeService {
 	/**

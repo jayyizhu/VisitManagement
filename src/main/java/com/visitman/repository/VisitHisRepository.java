@@ -1,8 +1,8 @@
-package com.tianmaying.repository;
+package com.visitman.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.tianmaying.entity.VisitHisEntity;
+import com.visitman.entity.VisitHisEntity;
 
 public interface VisitHisRepository extends JpaRepository<VisitHisEntity, Long>{
 	

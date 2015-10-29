@@ -1,4 +1,4 @@
-package com.tianmaying;
+package com.visitman;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -13,9 +13,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @EnableScheduling
 @EnableAutoConfiguration
-@ComponentScan("com.tianmaying")
-@EntityScan("com.tianmaying.entity")
-@EnableJpaRepositories("com.tianmaying.repository")
+@ComponentScan("com.visitman")
+@EntityScan("com.visitman.entity")
+@EnableJpaRepositories("com.visitman.repository")
 public class Application 
 {
 	 public static void main(String[] args) {
